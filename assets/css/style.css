@@ -24,6 +24,9 @@ body {
 header {
     background-color: lightcoral;
 }
+h1 {
+    font-family: oswald, serif;
+}
 
 /*main content*/
 p {
