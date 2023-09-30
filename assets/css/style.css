@@ -88,13 +88,21 @@ nav {
 }
 
 /*main content*/
-p {
-    background-color: lightblue;
+main {
+    
     /*make main element take up surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
+/* hero section */
+
+{
+    height:600px;
+    width:100%;
+    background-color:lightgreen;
+
+}
 /*footer*/
 #social-networks {
 text-align: center;
@@ -140,7 +148,7 @@ list-style-type: none;
     }
     /* main content */
 
-    p {
+    main {
         /* push main content down to accomodate larger header */
         margin-top: 79px;
     }
